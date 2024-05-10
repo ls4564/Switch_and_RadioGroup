@@ -51,15 +51,15 @@ public class MainActivity extends AppCompatActivity {
     {
         if(rb1.isChecked())
         {
-            back.setBackgroundColor(Color.RED);
+            back.setBackgroundColor(Color.rgb(178,61,198));
         }
         else if(rb2.isChecked())
         {
-            back.setBackgroundColor(Color.GREEN);
+            back.setBackgroundColor(Color.rgb(139,195,74));
         }
         else if(rb3.isChecked())
         {
-            back.setBackgroundColor(Color.BLUE);
+            back.setBackgroundColor(Color.rgb(0,188,212));
         }
         else
         {
